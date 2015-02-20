@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14ACAED216699591D557A229 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20A1C6CF8E329508A64DA347 /* preregister.txt */; };
+		26A4427215BB3967A47D6286 /* MigeranSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692E6977D8567FD899756AF9 /* MigeranSDK.framework */; };
+		460DE531C79782B9F2DC7494 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9448A084D6339259AC0A0D01 /* preregister.txt */; };
+		52939E4D055AF92B9AA67789 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = F164B0484032A7FF088D3176 /* application.jar */; };
+		6056970F74B6619C564D8C42 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 544054007C6CAC64AA87319D /* classlist.txt */; };
+		8444820491C28FC318220B62 /* MigeranSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692E6977D8567FD899756AF9 /* MigeranSDK.framework */; };
+		849348781A3B39C100C7251B /* data in Resources */ = {isa = PBXBuildFile; fileRef = 849348771A3B39C100C7251B /* data */; };
+		84DB3A511A3AF85B0082A23B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A501A3AF85B0082A23B /* UIKit.framework */; };
+		84DB3A531A3AF8640082A23B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A521A3AF8640082A23B /* OpenGLES.framework */; };
+		84DB3A551A3AF86E0082A23B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A541A3AF86E0082A23B /* QuartzCore.framework */; };
+		84DB3A571A3AF8770082A23B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A561A3AF8770082A23B /* CoreGraphics.framework */; };
+		84DB3A591A3AF8810082A23B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A581A3AF8800082A23B /* OpenAL.framework */; };
+		84DB3A5B1A3AF88A0082A23B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A5A1A3AF88A0082A23B /* AudioToolbox.framework */; };
+		84DB3A5D1A3AF8920082A23B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A5C1A3AF8920082A23B /* AVFoundation.framework */; };
+		84DB3A5F1A3AF89D0082A23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A5E1A3AF89D0082A23B /* Foundation.framework */; };
+		84DB3A611A3AF8A60082A23B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB3A601A3AF8A60082A23B /* CoreFoundation.framework */; };
+		9056F19839D6AEFEF5921097 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08B2297BBA73BE15E7A7046E /* main.cpp */; };
+		98972B08B03A5B94A691C769 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08B2297BBA73BE15E7A7046E /* main.cpp */; };
+		A4C6B501BA49CD7CD45D0F42 /* MigeranSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 692E6977D8567FD899756AF9 /* MigeranSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7A81CB49FA3C2D94B144A01 /* MigeranSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 692E6977D8567FD899756AF9 /* MigeranSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCC47D6DB5E47A784FFE2A1D /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = D0B7186D923E9A6CEB6926ED /* application.jar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F8446744EC55CA881FBE181 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7A81CB49FA3C2D94B144A01 /* MigeranSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D1F73AA243489ACCC8C96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4C6B501BA49CD7CD45D0F42 /* MigeranSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08B2297BBA73BE15E7A7046E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		20A1C6CF8E329508A64DA347 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = build/migeran/test/preregister.txt; sourceTree = SOURCE_ROOT; };
+		544054007C6CAC64AA87319D /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = build/migeran/test/classlist.txt; sourceTree = SOURCE_ROOT; };
+		5B403C0978AEA0C9114C0807 /* migeran-theplanethatcouldntflygood-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "migeran-theplanethatcouldntflygood-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692E6977D8567FD899756AF9 /* MigeranSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MigeranSDK.framework; path = build/migeran/iphoneos/MigeranSDK.framework; sourceTree = SOURCE_ROOT; };
+		6ED5AFEB34B42883D3C06516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8153C394629BF95CFF8CB19B /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		849348771A3B39C100C7251B /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = SOURCE_ROOT; };
+		84DB3A501A3AF85B0082A23B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DB3A521A3AF8640082A23B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		84DB3A541A3AF86E0082A23B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84DB3A561A3AF8770082A23B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DB3A581A3AF8800082A23B /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		84DB3A5A1A3AF88A0082A23B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84DB3A5C1A3AF8920082A23B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84DB3A5E1A3AF89D0082A23B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DB3A601A3AF8A60082A23B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9448A084D6339259AC0A0D01 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = build/migeran/main/preregister.txt; sourceTree = SOURCE_ROOT; };
+		C07149A177E8F04F962CCDCA /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Test.plist"; sourceTree = "<group>"; };
+		D0B7186D923E9A6CEB6926ED /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = build/migeran/main/application.jar; sourceTree = SOURCE_ROOT; };
+		EE4037D7B4786D69225A2941 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		F164B0484032A7FF088D3176 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = build/migeran/test/application.jar; sourceTree = SOURCE_ROOT; };
+		F729ED5FD967F67C17F276E5 /* migeran-theplanethatcouldntflygood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "migeran-theplanethatcouldntflygood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0866DB1880420C1668B0D490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8444820491C28FC318220B62 /* MigeranSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7DA0387D5FFF6ADE7475B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DB3A611A3AF8A60082A23B /* CoreFoundation.framework in Frameworks */,
+				84DB3A5F1A3AF89D0082A23B /* Foundation.framework in Frameworks */,
+				84DB3A5D1A3AF8920082A23B /* AVFoundation.framework in Frameworks */,
+				84DB3A5B1A3AF88A0082A23B /* AudioToolbox.framework in Frameworks */,
+				84DB3A591A3AF8810082A23B /* OpenAL.framework in Frameworks */,
+				84DB3A571A3AF8770082A23B /* CoreGraphics.framework in Frameworks */,
+				84DB3A551A3AF86E0082A23B /* QuartzCore.framework in Frameworks */,
+				84DB3A531A3AF8640082A23B /* OpenGLES.framework in Frameworks */,
+				84DB3A511A3AF85B0082A23B /* UIKit.framework in Frameworks */,
+				26A4427215BB3967A47D6286 /* MigeranSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5DC0E42E147BD8D7CFC125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8153C394629BF95CFF8CB19B /* build.xcconfig */,
+				C07149A177E8F04F962CCDCA /* Info-Test.plist */,
+				20A1C6CF8E329508A64DA347 /* preregister.txt */,
+				F164B0484032A7FF088D3176 /* application.jar */,
+				544054007C6CAC64AA87319D /* classlist.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10ACD9498B4D4797916FF6D5 = {
+			isa = PBXGroup;
+			children = (
+				EB312A220B8383B340FCD0E9 /* migeran-theplanethatcouldntflygood */,
+				AF327E9364F50FE9688793A6 /* migeran-theplanethatcouldntflygood-Test */,
+				8265EDA137648C19DA0E2C39 /* Frameworks */,
+				B782C07349A1FACD40DEEB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C2525E93989311FB5A0F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849348771A3B39C100C7251B /* data */,
+				08B2297BBA73BE15E7A7046E /* main.cpp */,
+				EE4037D7B4786D69225A2941 /* build.xcconfig */,
+				6ED5AFEB34B42883D3C06516 /* Info.plist */,
+				9448A084D6339259AC0A0D01 /* preregister.txt */,
+				D0B7186D923E9A6CEB6926ED /* application.jar */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8265EDA137648C19DA0E2C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DB3A601A3AF8A60082A23B /* CoreFoundation.framework */,
+				84DB3A5E1A3AF89D0082A23B /* Foundation.framework */,
+				84DB3A5C1A3AF8920082A23B /* AVFoundation.framework */,
+				84DB3A5A1A3AF88A0082A23B /* AudioToolbox.framework */,
+				84DB3A581A3AF8800082A23B /* OpenAL.framework */,
+				84DB3A561A3AF8770082A23B /* CoreGraphics.framework */,
+				84DB3A541A3AF86E0082A23B /* QuartzCore.framework */,
+				84DB3A521A3AF8640082A23B /* OpenGLES.framework */,
+				84DB3A501A3AF85B0082A23B /* UIKit.framework */,
+				692E6977D8567FD899756AF9 /* MigeranSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF327E9364F50FE9688793A6 /* migeran-theplanethatcouldntflygood-Test */ = {
+			isa = PBXGroup;
+			children = (
+				0F5DC0E42E147BD8D7CFC125 /* Supporting Files */,
+			);
+			path = "migeran-theplanethatcouldntflygood-Test";
+			sourceTree = "<group>";
+		};
+		B782C07349A1FACD40DEEB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F729ED5FD967F67C17F276E5 /* migeran-theplanethatcouldntflygood.app */,
+				5B403C0978AEA0C9114C0807 /* migeran-theplanethatcouldntflygood-Test.app */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		EB312A220B8383B340FCD0E9 /* migeran-theplanethatcouldntflygood */ = {
+			isa = PBXGroup;
+			children = (
+				28C2525E93989311FB5A0F40 /* Supporting Files */,
+			);
+			path = "migeran-theplanethatcouldntflygood";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD4728300D118DFD955E4B5 /* migeran-theplanethatcouldntflygood-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC46094C58F2C587A9F9C97 /* Build configuration list for PBXNativeTarget "migeran-theplanethatcouldntflygood-Test" */;
+			buildPhases = (
+				2A7C0866ED2041058DFF9843 /* Compile Sources (Migeran) */,
+				0866DB1880420C1668B0D490 /* Frameworks */,
+				62C88654FB74CE29D0930D97 /* Resources */,
+				5B08D599FD5A493584A7C70B /* Sources */,
+				C80D1F73AA243489ACCC8C96 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = "migeran-theplanethatcouldntflygood-Test";
+			productName = "migeran-theplanethatcouldntflygood-Test";
+			productReference = 5B403C0978AEA0C9114C0807 /* migeran-theplanethatcouldntflygood-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B190BFD7E4E104EF943FF2A0 /* migeran-theplanethatcouldntflygood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0B68B9DAC8B5804CF9B392 /* Build configuration list for PBXNativeTarget "migeran-theplanethatcouldntflygood" */;
+			buildPhases = (
+				25CD42F6C4EEC2043DA9FAC0 /* Compile Sources (Migeran) */,
+				3B7DA0387D5FFF6ADE7475B1 /* Frameworks */,
+				C84D0B255A355F2DCE36D9FC /* Resources */,
+				3AE1ACC06A5CBC99E468D602 /* Sources */,
+				5F8446744EC55CA881FBE181 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = "migeran-theplanethatcouldntflygood";
+			productName = "migeran-theplanethatcouldntflygood";
+			productReference = F729ED5FD967F67C17F276E5 /* migeran-theplanethatcouldntflygood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31286E6F8C95EA0D5914B24E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MattaKis Consulting Kft.";
+			};
+			buildConfigurationList = 5978BB0572E25077C0C2FA53 /* Build configuration list for PBXProject "migeran-theplanethatcouldntflygood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ACD9498B4D4797916FF6D5;
+			productRefGroup = B782C07349A1FACD40DEEB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B190BFD7E4E104EF943FF2A0 /* migeran-theplanethatcouldntflygood */,
+				6AD4728300D118DFD955E4B5 /* migeran-theplanethatcouldntflygood-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62C88654FB74CE29D0930D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACAED216699591D557A229 /* preregister.txt in Resources */,
+				52939E4D055AF92B9AA67789 /* application.jar in Resources */,
+				6056970F74B6619C564D8C42 /* classlist.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D0B255A355F2DCE36D9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DE531C79782B9F2DC7494 /* preregister.txt in Resources */,
+				849348781A3B39C100C7251B /* data in Resources */,
+				FCC47D6DB5E47A784FFE2A1D /* application.jar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25CD42F6C4EEC2043DA9FAC0 /* Compile Sources (Migeran) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (Migeran)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/\"\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n    if [ $? -ne 0 ]; then\n        echo \"Checking with 'which'\"\n        GRADLE_EXEC=$(which 'gradle')\n    fi\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Falling back to '/usr/local/bin/gradle'\"\n        GRADLE_EXEC=/usr/local/bin/gradle\n    fi\n}\nfindGradle\n\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MIGERAN_GRADLE_EXTERNAL_BUILD\" ]; then\n\t$GRADLE_EXEC --daemon migeranXcodeInternal\nfi\n";
+		};
+		2A7C0866ED2041058DFF9843 /* Compile Sources (Migeran) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (Migeran)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/\"\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n    if [ $? -ne 0 ]; then\n        echo \"Checking with 'which'\"\n        GRADLE_EXEC=$(which 'gradle')\n    fi\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Falling back to '/usr/local/bin/gradle'\"\n        GRADLE_EXEC=/usr/local/bin/gradle\n    fi\n}\nfindGradle\n\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MIGERAN_GRADLE_EXTERNAL_BUILD\" ]; then\n\t$GRADLE_EXEC --daemon migeranXcodeInternal\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE1ACC06A5CBC99E468D602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98972B08B03A5B94A691C769 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B08D599FD5A493584A7C70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9056F19839D6AEFEF5921097 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E50B242114217603EFE3697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4037D7B4786D69225A2941 /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-theplanethatcouldntflygood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = (
+					"${MIGERAN_OTHER_LDFLAGS}",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libObjectAL.a\"",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libgdx.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		77E2110803272FC4FC8F61D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8153C394629BF95CFF8CB19B /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-theplanethatcouldntflygood-Test/Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = "${MIGERAN_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		9CBF84D1EB4CEEC87911E9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4037D7B4786D69225A2941 /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-theplanethatcouldntflygood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = (
+					"${MIGERAN_OTHER_LDFLAGS}",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libObjectAL.a\"",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libgdx.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		BDB978657FF63050E4BD27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8153C394629BF95CFF8CB19B /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-theplanethatcouldntflygood-Test/Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = "${MIGERAN_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		D1295C03044E1E410933F7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-xcode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv7 armv7s";
+			};
+			name = Release;
+		};
+		DA2E9159F99B2AA3249FE3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-xcode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv7 armv7s";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5978BB0572E25077C0C2FA53 /* Build configuration list for PBXProject "migeran-theplanethatcouldntflygood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E9159F99B2AA3249FE3F1 /* Debug */,
+				D1295C03044E1E410933F7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0B68B9DAC8B5804CF9B392 /* Build configuration list for PBXNativeTarget "migeran-theplanethatcouldntflygood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBF84D1EB4CEEC87911E9A8 /* Debug */,
+				1E50B242114217603EFE3697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC46094C58F2C587A9F9C97 /* Build configuration list for PBXNativeTarget "migeran-theplanethatcouldntflygood-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB978657FF63050E4BD27E1 /* Debug */,
+				77E2110803272FC4FC8F61D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31286E6F8C95EA0D5914B24E /* Project object */;
+}

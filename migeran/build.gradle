@@ -1,0 +1,107 @@
+/************************/
+/** Build Script Setup **/
+/************************/
+
+buildscript {
+    // Add central and local Maven repos
+    repositories {
+        maven {
+            url('https://dl.migeran.com/maven/')
+        }
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        // Migeran plugin
+        classpath 'com.migeran:migeran.build.gradle:0.90.+'
+    }
+}
+
+/*******************/
+/** Project Setup **/
+/*******************/
+
+// Apply plugins
+apply plugin: 'eclipse'
+apply plugin: 'migeran'
+
+// Set source and target to Java 7
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+configurations { natives }
+
+// Set maven repository
+repositories { mavenCentral() }
+
+// Exclude all files from Gradle's test runner
+test { exclude '**' }
+
+// Extracts native libs (*.a) from the native-ios.jar and places them
+// under build/libs/ios/.
+task copyNatives << {
+  file("native/ios/").mkdirs();
+  configurations.natives.files.each { jar ->
+	def outputDir = null
+	if (jar.name.endsWith("natives-ios.jar")) outputDir = file("native/ios")
+	if (outputDir != null) {
+	  copy {
+		from zipTree(jar)
+		into outputDir
+		include "*.a"
+	  }
+	}
+  }
+}
+
+// Setup Migeran
+migeran {
+    sdk.version = '0.90.+'
+    xcode.mainTarget = 'migeran-theplanethatcouldntflygood'
+    xcode.testTarget = 'migeran-theplanethatcouldntflygood-Test'
+}
+
+// Set dependencies
+dependencies {
+	compile project(":core")
+	
+	compile "com.badlogicgames.gdx:gdx-backend-migeran:$gdxVersion"
+
+	natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
+	
+    // Compile with 'jar' files in the project's 'lib' directory
+    compile fileTree(dir: 'lib', include: '*.jar')
+
+    // Add Migeran SDK as runtime dependency, eclipse will need this
+    runtime files(migeran.sdk.commonJarPath)
+
+    // Add Migeran Test jar as test compile dependency
+    testCompile files(migeran.sdk.testJarPath)
+}
+
+// Set Migeran SDK as boot classpath
+compileJava { options.bootClasspath = migeran.sdk.commonJarPath }
+compileTestJava { options.bootClasspath = migeran.sdk.commonJarPath }
+
+build.dependsOn copyNatives
+tasks.eclipse.dependsOn copyNatives
+
+// Setup Eclipse
+eclipse {
+    classpath {
+        // Remove the default JRE container, Migeran SDK will take its place
+        file.whenMerged { classpath ->
+            project.migeran.fixJavaDocAndSources(classpath)
+            classpath.entries.removeAll { entry ->
+                entry.kind == 'con' && entry.path.startsWith('org.eclipse.jdt.launching.JRE_CONTAINER')
+            }
+        }
+    }
+
+    // Set Migeran natures and build commands
+    project {
+		name = appName + '-migeran'
+        natures 'com.migeran.mdt.appnature'
+        buildCommand 'com.migeran.mdt.generalbuilder'
+    }
+}
